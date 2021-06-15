@@ -1,0 +1,24 @@
+/* added only media query to make responsive */
+
+@media (max-width: 480px) {
+    
+    #clothing {
+        width: 50vh;
+        display: block;
+    }
+
+    #accessory {
+        width: 50vh;
+        display: block;
+    }
+    
+    .clothDiv {
+        min-width: 40%;
+        display: inline-block;
+    }
+
+    .accessDiv {
+        min-width: 40%;
+        display: inline-block;
+    }
+}
